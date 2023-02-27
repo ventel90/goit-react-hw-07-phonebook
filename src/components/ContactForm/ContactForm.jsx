@@ -33,6 +33,7 @@ export const ContactForm = () => {
         <Label htmlFor="">
           Name:{' '}
           <Input
+            autoComplete="off"
             type="text"
             name="name"
             id="name"
@@ -46,6 +47,7 @@ export const ContactForm = () => {
         <Label htmlFor="">
           Phone:{' '}
           <Input
+            autoComplete="off"
             type="tel"
             name="phone"
             id="phone"
